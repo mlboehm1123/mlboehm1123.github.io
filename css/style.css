@@ -30,6 +30,10 @@ body {font-family: 'Sorts Mill Goudy', serif;}
 /* The navbar */
 .nav {
   overflow: hidden;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 /* Navbar links */
@@ -39,8 +43,7 @@ body {font-family: 'Sorts Mill Goudy', serif;}
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  font-size: 17px;
-  display:inline-block;
+  font-size: 20px;
 }
 
 .nav li{
