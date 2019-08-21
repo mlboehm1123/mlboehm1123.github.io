@@ -28,24 +28,24 @@ body {font-family: 'Sorts Mill Goudy', serif;}
 }
 
 /* The navbar */
-.topnav {
+.nav {
   overflow: hidden;
 }
 
 /* Navbar links */
-.topnav a {
+.nav a {
   float: left;
   color: #8a8a8a;
   text-align: center;
-  padding: 15px 80px;
+  padding: 10px;
   text-decoration: none;
   font-size: 17px;
   display:inline-block;
 }
 
-.topnav li{
-    display:inline;
+.nav li{
+    display:inline-block;
 }
-.topnav a:hover {
+.nav a:hover {
   color: #343d34;
 }
