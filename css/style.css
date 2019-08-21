@@ -41,9 +41,10 @@ body {font-family: 'Sorts Mill Goudy', serif;}
   float: left;
   color: #8a8a8a;
   text-align: center;
-  padding: 50px;
+  padding: 2px;
   text-decoration: none;
   font-size: 20px;
+  margin: 50px;
 }
 
 .mynav li{
@@ -51,4 +52,5 @@ body {font-family: 'Sorts Mill Goudy', serif;}
 }
 .mynav a:hover {
   color: #343d34;
+  text-decoration: underline;
 }
