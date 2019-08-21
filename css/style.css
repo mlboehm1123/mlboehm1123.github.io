@@ -19,7 +19,7 @@
 
 /* Position the navbar container inside the image */
 .container {
-  position: absolute;
+  position: center;
   margin: 20px;
   width: auto;
 }
