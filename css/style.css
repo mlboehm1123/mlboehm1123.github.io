@@ -14,7 +14,7 @@
   background-size: cover;
 
   /* Needed to position the navbar */
-  position: relative;
+  position: center;
 }
 
 /* Position the navbar container inside the image */
