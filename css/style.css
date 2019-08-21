@@ -40,8 +40,12 @@ body {font-family: 'Sorts Mill Goudy', serif;}
   padding: 15px 80px;
   text-decoration: none;
   font-size: 17px;
+  display:inline-block;
 }
 
+.topnav li{
+    display:inline;
+}
 .topnav a:hover {
   color: #343d34;
 }
