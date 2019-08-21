@@ -37,7 +37,7 @@ body {font-family: 'Sorts Mill Goudy', serif;}
 }
 
 /* Navbar links */
-.mynav a {
+.mynav li{
   float: left;
   color: #8a8a8a;
   text-align: center;
@@ -46,7 +46,6 @@ body {font-family: 'Sorts Mill Goudy', serif;}
   font-size: 20px;
   display:inline-block;
 }
-
 .mynav a:hover {
   color: #343d34;
 }
