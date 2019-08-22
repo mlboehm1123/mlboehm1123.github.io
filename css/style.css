@@ -22,6 +22,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
   
   /* Needed to position the navbar */
   position: relative;
@@ -80,7 +81,7 @@ color: #ffffff;
 width: 750px;
 height: 370px;
 overflow: scroll;
-margin:120px auto;
+margin:10px auto;
 }
 
 /* Scrollbar styles */
