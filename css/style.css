@@ -2,15 +2,21 @@
 	color: #22257D
 }
 
-body {font-family: 'Cormorant Garamond', serif;}
-* {box-sizing: border-box;}
+body, html {
+  font-family: 'Cormorant Garamond', serif;
+  height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
 
 .bg-img {
   /* The image used */
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/trees.jpg");
 
 
-  height: 500px;
+  height: 100%;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -50,7 +56,7 @@ body {font-family: 'Cormorant Garamond', serif;}
   display:inline-block;
 }
 
-.mynav li{
+.mynav li {
     display:inline-block;
 }
 .mynav a:hover {
