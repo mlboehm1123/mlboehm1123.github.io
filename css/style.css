@@ -75,7 +75,7 @@ body, html {
 .myBox {
 border: none;
 padding: 5px;
-font: 24px/36px sans-serif;
+font: 24px;
 width: 500px;
 height: 200px;
 overflow: scroll;
@@ -84,18 +84,21 @@ overflow: scroll;
 /* Scrollbar styles */
 ::-webkit-scrollbar {
 width: 4px;
-height: 12px;
+height: 8px;
 }
 
 ::-webkit-scrollbar-track {
 border: none;
 border-radius: 10px;
+padding: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
 background: grey;  
 border-radius: 10px;
+padding: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: #88ba1c;  
+background: #88ba1c; 
+} 
