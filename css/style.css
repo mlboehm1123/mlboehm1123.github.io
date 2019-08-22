@@ -23,7 +23,7 @@ body {font-family: 'Sorts Mill Goudy', serif;}
 /* Position the navbar container inside the image */
 .container {
   position: center;
-  margin: 20px;
+  margin: 10% 1;
   width: auto;
 }
 
@@ -44,12 +44,12 @@ body {font-family: 'Sorts Mill Goudy', serif;}
   padding: 2px;
   text-decoration: none;
   font-size: 25px;
-  margin: 50px;
+  margin: 40%;
   display:inline-block;
 }
 
 .mynav li{
-    display:inline;
+    display:inline-block;
 }
 .mynav a:hover {
   color: #343d34;
