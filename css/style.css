@@ -60,6 +60,7 @@ body, html {
     display:inline-block;
 }
 .mynav a:hover {
-  color: #7b8a7e;
+  color: #aab1aa;
   font-weight: 700;
+  text-decoration:underline;
 }
