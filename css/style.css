@@ -80,7 +80,7 @@ color: #ffffff;
 width: 750px;
 height: 370px;
 overflow: scroll;
-margin:150px auto;
+margin:120px auto;
 }
 
 /* Scrollbar styles */
@@ -107,5 +107,5 @@ background: #ffffff;
 .profilepic {
   width: 80px;
   height: 80px;
-  margin: 60px auto;
+  margin: 20px auto;
 }
