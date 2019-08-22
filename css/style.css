@@ -74,11 +74,13 @@ body, html {
 /* Box styles */
 .myBox {
 border: none;
-padding: 5px;
+padding: 1px;
 font: 24px;
-width: 500px;
-height: 200px;
+color: #ffffff;
+width: 750px;
+height: 370px;
 overflow: scroll;
+margin:150px auto;
 }
 
 /* Scrollbar styles */
@@ -90,15 +92,14 @@ height: 8px;
 ::-webkit-scrollbar-track {
 border: none;
 border-radius: 10px;
-padding: 5px;
 }
 
 ::-webkit-scrollbar-thumb {
-background: grey;  
+background: #8a8a8a;  
 border-radius: 10px;
-padding: 5px;
+
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: #88ba1c; 
+background: #ffffff; 
 } 
