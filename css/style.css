@@ -2,7 +2,7 @@
 	color: #22257D
 }
 
-body {font-family: 'Sorts Mill Goudy', serif;}
+body {font-family: 'Cormorant Garamond', serif;}
 * {box-sizing: border-box;}
 
 .bg-img {
@@ -44,6 +44,7 @@ body {font-family: 'Sorts Mill Goudy', serif;}
   padding: 2px;
   text-decoration: none;
   font-size: 25px;
+  font-weight: 600;
   margin: 40px;
   display:inline-block;
 }
@@ -53,4 +54,5 @@ body {font-family: 'Sorts Mill Goudy', serif;}
 }
 .mynav a:hover {
   color: #343d34;
+  font-weight: 700;
 }
