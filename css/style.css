@@ -10,7 +10,7 @@ body {font-family: 'Cormorant Garamond', serif;}
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("trees.jpg");
 
 
-  height: 100%;
+  height: 500px;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -40,7 +40,7 @@ body {font-family: 'Cormorant Garamond', serif;}
 /* Navbar links */
 .mynav a {
   float: left;
-  color: #8a8a8a;
+  color: #ffffff;
   text-align: center;
   padding: 2px;
   text-decoration: none;
@@ -54,6 +54,6 @@ body {font-family: 'Cormorant Garamond', serif;}
     display:inline-block;
 }
 .mynav a:hover {
-  color: #343d34;
+  color: #a2a2a2;
   font-weight: 700;
 }
