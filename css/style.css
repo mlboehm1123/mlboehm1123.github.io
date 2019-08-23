@@ -105,9 +105,8 @@ body, html {
   background: #ffffff; 
 } 
 
-.profilepic {
-  width: 80px;
-  height: 80px;
-  margin: 20px auto;
-  background-image: url("../img/me.jpg");
+.img {
+  width: 100px;
+  height: 100px;
+  margin: 10px auto;
 }
