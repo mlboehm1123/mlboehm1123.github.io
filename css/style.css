@@ -38,7 +38,6 @@ body, html {
 
 /* The navbar */
 .mynav {
-  overflow: hidden;
   list-style-type: none;
   text-align: center;
   margin: 0;
@@ -80,7 +79,7 @@ body, html {
   padding: 2px 9px;
   font: 24px;
   color: #ffffff;
-  width: 750px;
+  width: 75%;
   height: 370px;
   overflow: scroll;
   background-color: #cac7c745;
