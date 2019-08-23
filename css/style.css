@@ -75,14 +75,16 @@ body, html {
 
 /* Box styles */
 .myBox {
+  margin:10px auto;
   border: none;
-  padding: 1px;
+  padding: 2px 9px;
   font: 24px;
   color: #ffffff;
   width: 750px;
   height: 370px;
   overflow: scroll;
-  margin:10px auto;
+  background-color: #cac7c745;
+  border-radius: 10px;
 }
 
 /* Scrollbar styles */
@@ -93,7 +95,6 @@ body, html {
 
 ::-webkit-scrollbar-track {
   border: none;
-  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
