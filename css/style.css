@@ -74,35 +74,35 @@ body, html {
 
 /* Box styles */
 .myBox {
-border: none;
-padding: 1px;
-font: 24px;
-color: #ffffff;
-width: 750px;
-height: 370px;
-overflow: scroll;
-margin:10px auto;
+  border: none;
+  padding: 1px;
+  font: 24px;
+  color: #ffffff;
+  width: 750px;
+  height: 370px;
+  overflow: scroll;
+  margin:10px auto;
 }
 
 /* Scrollbar styles */
 ::-webkit-scrollbar {
-width: 4px;
-height: 8px;
+  width: 3px;
+  height: 0px;
 }
 
 ::-webkit-scrollbar-track {
-border: none;
-border-radius: 10px;
+  border: none;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
-background: #8a8a8a;  
-border-radius: 10px;
-
+  background: #ffffff;  
+  border-radius: 10px;
+  background-color:rgba(255, 255, 255, 0.3);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-background: #ffffff; 
+  background: #ffffff; 
 } 
 
 .profilepic {
