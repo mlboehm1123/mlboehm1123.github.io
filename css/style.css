@@ -1,5 +1,5 @@
 #mlb {
-	color: #22257D
+  color: #22257D
 }
 
 body, html {
@@ -8,7 +8,7 @@ body, html {
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .bg-img {
@@ -114,11 +114,12 @@ img {
   border-radius: 4px;
 }
 div.gallery {
-  border: 1px solid #ccc;
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+  color: #aab1aa;
+  font-weight: 600;
+  text-decoration:underline;
 }
 
 div.gallery img {
@@ -127,27 +128,14 @@ div.gallery img {
 }
 
 div.desc {
-  padding: 15px;
+  padding: 2px 0;
   text-align: center;
 }
 
 .responsive {
-  padding: 0 6px;
+  padding: 1px 5px;
   float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
+  width: 25%;
 }
 
 .clearfix:after {
@@ -155,3 +143,4 @@ div.desc {
   display: table;
   clear: both;
 }
+
