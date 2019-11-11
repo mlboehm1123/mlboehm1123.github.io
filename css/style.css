@@ -1,0 +1,115 @@
+#mlb {
+	color: #22257D
+}
+
+body, html {
+  font-family: 'Cormorant Garamond', serif;
+  height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/trees.jpg");
+
+
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: scroll;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+  position: center;
+  margin: 10% 1;
+  width: auto;
+  color:#ffffff;
+}
+
+/* The navbar */
+.mynav {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar links */
+.mynav li a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 2px;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 40px;
+  display:inline-block;
+}
+
+.mynav li a.active {
+  color: #aab1aa;
+  font-weight: 700;
+  text-decoration:underline;
+}
+
+.mynav li {
+    display:inline-block;
+}
+.mynav li a:hover:not(.active) {
+  color: #aab1aa;
+  font-weight: 700;
+  text-decoration:underline;
+}
+
+/* Box styles */
+.myBox {
+  margin:10px auto;
+  border: none;
+  padding: 2px 9px;
+  font: 24px;
+  color: #ffffff;
+  width: 75%;
+  height: 370px;
+  overflow: scroll;
+  background-color: #cac7c721;
+  border-radius: 10px;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-track {
+  border: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;  
+  border-radius: 10px;
+  background-color:rgba(255, 255, 255, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff; 
+} 
+
+img {
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  border: 1px solid #d0d0d0; 
+  border-radius: 4px;
+}
