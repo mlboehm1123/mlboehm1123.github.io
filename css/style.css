@@ -123,8 +123,9 @@ div.gallery:hover {
 }
 
 div.gallery img {
-  width: 100%;
-  height:;
+  display: block;
+  width: auto;
+  height: 150px;
   object-fit: contain;
 }
 
