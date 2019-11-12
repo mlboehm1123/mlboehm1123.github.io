@@ -108,12 +108,13 @@ body, html {
 
 .me-img {
   /* The image used */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/trees.jpg");
+  background-image: url("../img/me.jpg");
   width: 120px;
   height: 120px;
   margin: auto;
   border: 1px solid #d0d0d0; 
   border-radius: 4px;
+  background-size: contain;
 }
 
 div.gallery {
