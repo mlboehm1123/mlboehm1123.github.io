@@ -34,6 +34,7 @@ body, html {
   margin: 10% 1;
   width: auto;
   color:#ffffff;
+
 }
 
 /* The navbar */
@@ -154,5 +155,5 @@ div.desc {
 .frontpage {
   width: 100%;
   height: 100%;
-  overflow: scroll;
+  overflow: hidden;
 }
