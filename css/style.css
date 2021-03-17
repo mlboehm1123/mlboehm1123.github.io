@@ -195,3 +195,7 @@ div.desc {
     margin-bottom: 20px;
   }
 }
+
+div.a {
+  float: right;
+}
