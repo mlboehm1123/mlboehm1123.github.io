@@ -171,7 +171,9 @@ div.desc {
 }
 
 /* Remove extra left and right margins, due to padding in columns */
-.row {margin: 0 -5px;}
+.row {
+  overflow-y: hidden;
+  margin: 0 -5px;}
 
 /* Clear floats after the columns */
 .row:after {
@@ -188,6 +190,7 @@ div.desc {
   border-color: black;
   border-radius: 5px;
   border-width: 2px;
+  overflow-y: hidden;
 }
 
 /* Responsive columns - one column layout (vertical) on small screens */
@@ -196,5 +199,6 @@ div.desc {
     width: 100%;
     display: block;
     margin-bottom: 20px;
+    overflow-y: hidden;
   }
 }
